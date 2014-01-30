@@ -23,7 +23,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/include"
-  "/usr/include/OGRE"
+  "/usr/local/include/OGRE"
   "/usr/include/ois"
   "/usr/include/libxml2"
   "/usr/include/opencv"

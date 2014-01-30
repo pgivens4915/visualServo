@@ -41,7 +41,7 @@ int main(int argc, char** argv){
     tracker.setFarClippingDistance(100.0);
     tracker.setClipping(tracker.getClipping() | vpMbtPolygon::FOV_CLIPPING);
     tracker.setDisplayFeatures(true);
-    tracker.setOgreVisibilityTest(true);
+    tracker.setOgreVisibilityTest(false);
     tracker.setAngleAppear(70);
     tracker.setAngleDisappear(80);
     tracker.loadModel("teabox.cao");
@@ -57,6 +57,9 @@ int main(int argc, char** argv){
 
         tracker.track(I);
         tracker.getPose(cMo);
+        printf("DEBUG-----------------------------------\n");
+        cMo.print();
+        printf("END DEBUG-------------------------------\n");
         tracker.getCameraParameters(cam);
         tracker.display(I, cMo, cam, vpColor::red, 2);
         vpDisplay::displayFrame(I, cMo, cam, 0.025, vpColor::none, 3);

@@ -1,30 +1,69 @@
-16:26:42: Creating resource group General
-16:26:42: Creating resource group Internal
-16:26:42: Creating resource group Autodetect
-16:26:42: SceneManagerFactory for type 'DefaultSceneManager' registered.
-16:26:42: Registering ResourceManager for type Material
-16:26:42: Registering ResourceManager for type Mesh
-16:26:42: Registering ResourceManager for type Skeleton
-16:26:42: MovableObjectFactory for type 'ParticleSystem' registered.
-16:26:42: OverlayElementFactory for type Panel registered.
-16:26:42: OverlayElementFactory for type BorderPanel registered.
-16:26:42: OverlayElementFactory for type TextArea registered.
-16:26:42: Registering ResourceManager for type Font
-16:26:42: ArchiveFactory for archive type FileSystem registered.
-16:26:42: ArchiveFactory for archive type Zip registered.
-16:26:42: DDS codec registering
-16:26:42: FreeImage version: 3.15.1
-16:26:42: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
-16:26:42: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,sti
-16:26:42: Registering ResourceManager for type HighLevelGpuProgram
-16:26:42: Registering ResourceManager for type Compositor
-16:26:42: MovableObjectFactory for type 'Entity' registered.
-16:26:42: MovableObjectFactory for type 'Light' registered.
-16:26:42: MovableObjectFactory for type 'BillboardSet' registered.
-16:26:42: MovableObjectFactory for type 'ManualObject' registered.
-16:26:42: MovableObjectFactory for type 'BillboardChain' registered.
-16:26:42: MovableObjectFactory for type 'RibbonTrail' registered.
-16:26:42: *-*-* OGRE Initialising
-16:26:42: *-*-* Version 1.7.4 (Cthugha)
-16:26:42: Creating resource group Essential
-16:26:42: OGRE EXCEPTION(7:InternalErrorException): OGRE_MEDIA_DIR-NOTFOUND/packs/SdkTrays.zip - error whilst opening archive: Unable to read zip file. in ZipArchive::checkZzipError at /build/buildd/ogre-1.7.4+dfsg1/OgreMain/src/OgreZip.cpp (line 280)
+13:33:09: Creating resource group General
+13:33:09: Creating resource group Internal
+13:33:09: Creating resource group Autodetect
+13:33:09: SceneManagerFactory for type 'DefaultSceneManager' registered.
+13:33:09: Registering ResourceManager for type Material
+13:33:09: Registering ResourceManager for type Mesh
+13:33:09: Registering ResourceManager for type Skeleton
+13:33:09: MovableObjectFactory for type 'ParticleSystem' registered.
+13:33:09: OverlayElementFactory for type Panel registered.
+13:33:09: OverlayElementFactory for type BorderPanel registered.
+13:33:09: OverlayElementFactory for type TextArea registered.
+13:33:09: Registering ResourceManager for type Font
+13:33:09: ArchiveFactory for archive type FileSystem registered.
+13:33:09: ArchiveFactory for archive type Zip registered.
+13:33:09: ArchiveFactory for archive type EmbeddedZip registered.
+13:33:09: DDS codec registering
+13:33:09: FreeImage version: 3.15.1
+13:33:09: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+13:33:09: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,sti
+13:33:09: Registering ResourceManager for type HighLevelGpuProgram
+13:33:09: Registering ResourceManager for type Compositor
+13:33:09: MovableObjectFactory for type 'Entity' registered.
+13:33:09: MovableObjectFactory for type 'Light' registered.
+13:33:09: MovableObjectFactory for type 'BillboardSet' registered.
+13:33:09: MovableObjectFactory for type 'ManualObject' registered.
+13:33:09: MovableObjectFactory for type 'BillboardChain' registered.
+13:33:09: MovableObjectFactory for type 'RibbonTrail' registered.
+13:33:09: Loading library /usr/local/lib/OGRE/RenderSystem_GL
+13:33:10: Installing plugin: GL RenderSystem
+13:33:10: OpenGL Rendering Subsystem created.
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_ParticleFX
+13:33:10: Installing plugin: ParticleFX
+13:33:10: Particle Emitter Type 'Point' registered
+13:33:10: Particle Emitter Type 'Box' registered
+13:33:10: Particle Emitter Type 'Ellipsoid' registered
+13:33:10: Particle Emitter Type 'Cylinder' registered
+13:33:10: Particle Emitter Type 'Ring' registered
+13:33:10: Particle Emitter Type 'HollowEllipsoid' registered
+13:33:10: Particle Affector Type 'LinearForce' registered
+13:33:10: Particle Affector Type 'ColourFader' registered
+13:33:10: Particle Affector Type 'ColourFader2' registered
+13:33:10: Particle Affector Type 'ColourImage' registered
+13:33:10: Particle Affector Type 'ColourInterpolator' registered
+13:33:10: Particle Affector Type 'Scaler' registered
+13:33:10: Particle Affector Type 'Rotator' registered
+13:33:10: Particle Affector Type 'DirectionRandomiser' registered
+13:33:10: Particle Affector Type 'DeflectorPlane' registered
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_BSPSceneManager
+13:33:10: Installing plugin: BSP Scene Manager
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_CgProgramManager
+13:33:10: Installing plugin: Cg Program Manager
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_PCZSceneManager
+13:33:10: Installing plugin: Portal Connected Zone Scene Manager
+13:33:10: PCZone Factory Type 'ZoneType_Default' registered
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_OctreeSceneManager
+13:33:10: Installing plugin: Octree Scene Manager
+13:33:10: Plugin successfully installed
+13:33:10: Loading library /usr/local/lib/OGRE/Plugin_OctreeZone
+13:33:10: Installing plugin: Octree Zone Factory
+13:33:10: Plugin successfully installed
+13:33:10: *-*-* OGRE Initialising
+13:33:10: *-*-* Version 1.8.1 (Byatis)
+13:33:10: Creating resource group Essential
+13:33:10: OGRE EXCEPTION(7:InternalErrorException): OGRE_MEDIA_DIR-NOTFOUND/packs/SdkTrays.zip - error whilst opening archive: Unable to read zip file. in ZipArchive::checkZzipError at /home/paul/lib/ogre_src_v1-8-1/OgreMain/src/OgreZip.cpp (line 293)

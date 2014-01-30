@@ -93,10 +93,11 @@ tutorial-viewer: /usr/lib/i386-linux-gnu/libXext.so
 tutorial-viewer: /usr/lib/libboost_serialization-mt.so
 tutorial-viewer: /usr/lib/libboost_thread-mt.so
 tutorial-viewer: /usr/lib/libboost_date_time-mt.so
-tutorial-viewer: /usr/lib/i386-linux-gnu/libOgreMain.so
-tutorial-viewer: /usr/lib/i386-linux-gnu/libOgreMain.so
+tutorial-viewer: /usr/local/lib/libOgreMain.so
+tutorial-viewer: /usr/local/lib/libOgreMain.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libOIS.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libOIS.so
+tutorial-viewer: /usr/lib/i386-linux-gnu/libGLU.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libGL.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libSM.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libICE.so
@@ -151,8 +152,9 @@ tutorial-viewer: /usr/lib/i386-linux-gnu/libv4lconvert.so
 tutorial-viewer: /usr/lib/libboost_serialization-mt.so
 tutorial-viewer: /usr/lib/libboost_thread-mt.so
 tutorial-viewer: /usr/lib/libboost_date_time-mt.so
-tutorial-viewer: /usr/lib/i386-linux-gnu/libOgreMain.so
+tutorial-viewer: /usr/local/lib/libOgreMain.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libOIS.so
+tutorial-viewer: /usr/lib/i386-linux-gnu/libGLU.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libGL.so
 tutorial-viewer: /usr/lib/libCoin.so
 tutorial-viewer: /usr/lib/i386-linux-gnu/libxml2.so
